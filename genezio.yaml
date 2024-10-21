@@ -30,8 +30,8 @@ services:
         - name: my-mongo-db
           region: us-east-1
           type: mongo-atlas
-    databases:
-        - name: my-postgres-2
-          region: us-east-1
-          type: postgres-neon
+    # databases:
+    #     - name: my-postgres-2
+    #       region: us-east-1
+    #       type: postgres-neon
 yamlVersion: 2
